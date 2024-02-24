@@ -1,0 +1,29 @@
+.home {
+    overflow-y: hidden;
+    /* background-image: url('../../images/wal.jpg'); */
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding-top: 100px;
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    width: 100%; /* Ensure the body covers the entire viewport width */
+    display:;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+}
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 300px;
+  }
+  
+  .icons-container > * {
+    margin: 0 10px;
+  }
+  
